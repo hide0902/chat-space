@@ -1,0 +1,28 @@
+.main-bar {
+  width: calc(100vw - 300px);
+  height: 100vh;
+  float: right;
+  
+
+
+  .main-header {
+    height: 100px;
+    background-color: #ffffff;
+    // width: calc(100vw - 300px);
+  }
+
+  .main-messages {
+    height: calc(100vh - 190px);
+    background-color: #fafafa;
+  }
+
+
+  .main-form {
+    height: 90px;
+    // width: calc(100vw - 300px);
+    background-color: #d2d2d2;
+    // position: fixed;
+    // bottom: 0;
+
+  }
+}
