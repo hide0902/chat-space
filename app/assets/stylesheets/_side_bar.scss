@@ -12,22 +12,22 @@
     align-items: center;
     display: flex;
 
-    .side-header__box {
+    &__box {
       display: flex;
       justify-content: space-between;
       width: 100%;
       font-weight: bold;
       font-size: 16px;
-      ul.side-header__box__menu {
+      &__menu {
         display: flex;
-        li.side-header__box__edit-user{
+        &__edit-user{
         
           a {
             color: #ffffff;
             margin-left: 5px;
           }
         }
-        li.side-header__box__new-grouo {
+        &__new-grouo {
         
           a {
             color: #ffffff;
@@ -39,18 +39,20 @@
   }
   
   .side-group {
-    background-color: #2f3e51;
-    height: calc(100vh - 100px);
-    padding: 20px 20px 0 20px;
-    bottom: 0;
-    overflow: scroll;
-    .group__name {
-      font-size: 15px;
-      padding-bottom: 5px;
-    }
-    .group__message {
-      font-size: 11px;
-      padding-bottom: 40px;
+    .group {
+      background-color: #2f3e51;
+      height: calc(100vh - 100px);
+      padding: 20px 20px 0 20px;
+      bottom: 0;
+      overflow: scroll;
+      &__name {
+        font-size: 15px;
+        padding-bottom: 5px;
+      }
+      &__message {
+        font-size: 11px;
+        padding-bottom: 40px;
+      }
     }
   }
 }

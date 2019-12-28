@@ -11,14 +11,14 @@
     justify-content: space-between;
     border-bottom: solid 1px #eeeeee;
     overflow: scroll;
-    .main-header__box {
+    &__box {
       margin-top: 35px;
-      h2.main-header__box__group-name {
+      &__group-name {
         color: #333333;
         font-size: 20px;
         margin-bottom: 15px;
       }
-      ul.main-header__box__member {
+      &__member {
         color: #999999;
         font-size: 12px;
         display: flex;
@@ -40,45 +40,45 @@
     height: calc(100vh - 190px);
     background-color: #fafafa;
     padding: 46px 40px;
-    .main-messages__box1 {
+    &__box1 {
       padding-bottom: 40px;
-      .main-messages__box1-box {
+      &__box {
         margin-bottom: 10px;
         display: flex;
-        p.main-messages__box1-box-name {
+        &__name {
           font-size: 16px;
           color: #333333;
           font-weight: bold;
         }
-        p.main-messages__box1-box-time {
+        &__time {
           font-size: 12px;
           color: #999999;
           margin-left: 10px;
         }
       }
-      .main-messages__box1-message {
+      &__message {
         font-size: 14px;
         color: #434A54;
         margin-bottom: 10px;
       }
     }
-    .main-messages__box2 {
+    &__box2 {
       padding-bottom: 46px;
-      .main-messages__box2-box {
+      &__box {
         margin-bottom: 10px;
         display: flex;
-        p.main-messages__box2-box-name {
+        &__name {
           font-size: 16px;
           color: #333333;
           font-weight: bold;
         }
-        p.main-messages__box2-box-time {
+        &__time {
           font-size: 12px;
           color: #999999;
           margin-left: 10px;
         }
       }
-      .main-messages__box2-message {
+      &__message {
         font-size: 14px;
         color: #434A54;
         margin-bottom: 10px;
