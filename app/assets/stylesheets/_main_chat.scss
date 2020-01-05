@@ -39,7 +39,8 @@
   .main-messages {
     height: calc(100vh - 190px);
     background-color: #fafafa;
-    padding: 46px 40px;
+    padding: 46px 40px 0;
+    box-sizing: border-box;
     &__box1 {
       padding-bottom: 40px;
       &__box {
@@ -59,31 +60,11 @@
       &__message {
         font-size: 14px;
         color: #434A54;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+        margin-top: 10px;
       }
     }
-    &__box2 {
-      padding-bottom: 46px;
-      &__box {
-        margin-bottom: 10px;
-        display: flex;
-        &__name {
-          font-size: 16px;
-          color: #333333;
-          font-weight: bold;
-        }
-        &__time {
-          font-size: 12px;
-          color: #999999;
-          margin-left: 10px;
-        }
-      }
-      &__message {
-        font-size: 14px;
-        color: #434A54;
-        margin-bottom: 10px;
-      }
-    }
+    
   }
 
   .form {
