@@ -41,8 +41,9 @@
     background-color: #fafafa;
     padding: 46px 40px 0;
     box-sizing: border-box;
+    overflow: auto;
     &__box1 {
-      padding-bottom: 40px;
+      
       &__box {
         margin-bottom: 10px;
         display: flex;
